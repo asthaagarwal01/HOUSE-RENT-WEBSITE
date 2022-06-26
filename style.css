@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header
+{
+    margin: 30px 110px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo
+{
+    display: flex;
+}
+
+.logo i 
+{
+    color: #1883ff;
+}
+
+.logo h3
+{
+    margin-left: 10px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav ul li a
+{
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover
+{
+    color: #1883ff;
+}
+
+.btn
+{
+    padding: 10px 20px;
+    background: #1883ff;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.back
+{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 450px;
+    border-radius: 25px;
+    margin: 40px 110px;
+}
+
+.back h1
+{
+    color: #fff;
+    padding-top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+}
+
+.back .btn
+{
+   margin-top: 30px;
+   margin-left: 20px;
+}
+
+.about
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 120px;
+}
+
+.about img
+{
+    width: 550px;
+    height: 350px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.about .text
+{
+    padding-left: 50px;
+}
+
+.about .head
+{
+    color: #1883ff;
+    font-size: 15px;
+    
+    margin-bottom: 15px;
+}
+
+.about h2
+{
+    line-height: 38px;
+}
+
+.about .cont
+{
+    padding: 20px 0;
+}
+
+.sale
+{
+    margin: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box 
+{
+    text-align: center;
+    padding: 5px 30px;
+    padding-bottom: 20px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.1) , -7px -7px 10px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    transition: 0.5s ease;
+}
+
+.box:hover
+{
+    background: #1883ff;
+    color: #fff;
+}
+.box i
+{
+    color: #1883ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box i:hover
+{
+    color: #fff;
+}
+
+.box h3
+{
+    padding-bottom: 30px;
+}
+
+.recent
+{
+    margin: 110px 50px;
+    background: #fbfbfb;
+    border-radius: 40px;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.1),-7px -7px 15px rgba(0,0,0,0.1);
+}
+
+.wind
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    
+}
+
+.glass
+{
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.1),-7px -7px 15px rgba(0,0,0,0.1);
+    transition: 0.5s all;
+}
+
+.glass:hover
+{
+    transform: scale(1.2);
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.1),-7px -7px 15px rgba(0,0,0,0.1);
+}
+
+.glass img
+{
+    width: 310px;
+    height: 260px;
+   padding: 15px;
+   border-radius: 25px;
+}
+
+.hea
+{
+    color: #1883ff;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.recent h2
+{
+    padding-bottom: 15px;
+}
+
+.te
+{
+   padding-bottom: 20px;
+}
+
+.glass .price
+{
+    text-align: right;
+    padding-right: 5px;
+   
+}
+
+.glass h4 , .glass p
+{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.ask
+{
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.search
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 610px;
+}
+
+.search input
+{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 90px;
+    border-radius: 25px;
+    color: #000;
+    opacity: .7;
+    border: none;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.1),-7px -7px 15px rgba(0,0,0,0.1);
+}
+
+.search .b
+{
+    padding: 5px 14px;
+    background: #1883ff;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    margin-left: 190px;
+    position: absolute;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+footer
+{
+    padding: 70px 140px;
+    background: #1883ff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 60px;
+    color: #fff;
+}
+
+.menu h3
+{
+    padding: 20px;
+}
+
+.menu ul li
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.icons i
+{
+    padding: 10px;
+    font-size: 20px
+}
+
+
+
